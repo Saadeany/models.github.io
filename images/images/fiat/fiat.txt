@@ -1,0 +1,73 @@
+FIAT 500e 2020
+
+ENGINE SPECS - 42 KW
+Power:	116 HP @ - RPM
+Fuel:	Electric
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+
+BRAKES SPECS
+Front:	Ventilated Discs
+Rear:	Discs
+
+
+FIAT Tipo hatchback
+
+ENGINE SPECS - 1.4L 6MT (95 HP)
+Cylinders:	L4
+Displacement:	1368 cm3
+Power:	95 HP @ 6000 RPM
+Torque: 127 Nm @ 4500 RPM
+Fuel System:	Multipoint Injection
+Fuel:	Gasoline
+Fuel capacity:	13.2 gallons (50.0 L)
+
+PERFORMANCE SPECS
+Top Speed:	115 mph (185 km/h)
+
+TRANSMISSION SPECS
+Drive Type:	Front Wheel Drive
+Gearbox:	6-speed
+
+
+
+2018 Fiat 500 X
+
+
+ENGINE SPECS - 1.0L FIREFLY TURBO 6MT (120 HP)
+Cylinders:	L3
+Displacement:	999 cm3
+Power: 120 HP @ 5750 RPM
+Torque:	190 Nm @ 1750 RPM
+Fuel System:	Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	14.5 gallons (54.9 L)
+
+PERFORMANCE SPECS
+Top Speed:	117 mph (188 km/h)
+Acceleration 0-62 Mph (0-100 kph):	10.9 s
+
+TRANSMISSION SPECS
+Drive Type:	Front Wheel Drive
+Gearbox:	6-speed manual
+
+
+FIAT Tipo
+
+ENGINE SPECS - 1.4L 6MT (95 HP)
+Cylinders:	L4
+Displacement:	1368 cm3
+Power:	95 HP @ 6000 RPM
+Torque:	127 Nm @ 4500 RPM
+Fuel System:	Multipoint Injection
+Fuel:	Gasoline
+Fuel capacity:	11.9 gallons (45.0 L)
+
+PERFORMANCE SPECS
+Top Speed:	115 mph (185 km/h)
+Acceleration 0-62 Mph (0-100 kph):	11.5 s
+
+TRANSMISSION SPECS
+Drive Type:	Front Wheel Drive
+Gearbox:	6-speed 

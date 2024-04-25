@@ -1,0 +1,86 @@
+CHEVROLET Malibu 2018
+
+ENGINE SPECS - 1.5L VVT CVT (163 HP)
+Cylinders:	L4
+Displacement:	1499 cm3
+Power:	163 HP @ 5700 RPM
+Torque:	250 Nm @ 2500-3000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	15.9 gallons (60.2 L)
+
+TRANSMISSION SPECS
+Drive Type:	Front Wheel Drive
+Gearbox:	CVT
+
+
+CHEVROLET Cruze 2009-2016
+
+ENGINE SPECS - 1.4L 5MT FWD (100 HP)
+Cylinders:	L4
+Displacement:	1364 cm3
+Power:	101 HP @ 6000 RPM
+Torque:	130 Nm @ 4200 RPM
+Fuel System:	Multipoint Injection
+Fuel:	Gasoline
+Fuel capacity:	15.9 gallons (60.2 L)
+
+PERFORMANCE SPECS
+Top Speed:	117 mph (188 km/h)
+Acceleration 0-62 Mph (0-100 kph):	14 s
+
+TRANSMISSION SPECS
+Drive Type:	Front Wheel Drive
+Gearbox:	5-speed manual
+
+
+CHEVROLET Aveo Sedan 2011-2016
+
+ENGINE SPECS - 1.2L 5MT FWD (86 HP)
+Cylinders:	4
+Displacement:	1229 cm3
+Power:	86 HP @ 5600 RPM
+Torque:	115 Nm @ 4000 RPM
+Fuel System:	Multipoint Injection
+Fuel:	Gasoline
+Fuel capacity:	12.2 gallons (46.2 L)
+
+PERFORMANCE SPECS
+Top Speed:	106 mph (171 km/h)
+Acceleration 0-62 Mph (0-100 kph):	13.4 s
+
+TRANSMISSION SPECS
+Drive Type:	Front Wheel Drive
+Gearbox:	5-speed, Manual
+
+
+CHEVROLET Camaro 2018
+
+ENGINE SPECS - 2.0L 1LE VVT 6MT (275 HP)
+Cylinders:	L4
+Displacement:	1998 cm3
+Power:	275 HP @ 5600 RPM
+Torque:	400 Nm @ 3000-4500 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	19 gallons (71.9 L)
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	6-speed manual
+
+
+
+2021 Chevrolet Suburban
+
+ENGINE SPECS - 5.3L V8 VVT 10AT AWD (355 HP)
+Cylinders:	V8
+Power:	355 HP @ 5600 RPM
+Torque:	519 Nm @ 4100 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	31 gallons (117.3 L)
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	10-speed automatic
