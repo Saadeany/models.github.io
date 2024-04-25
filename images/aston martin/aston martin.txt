@@ -1,0 +1,95 @@
+2025 Aston Martin Vantage
+
+
+ENGINE SPECS - 4.0L V8 TWIN TURBO 8AT RWD (665 HP)
+Cylinders:	V8
+Displacement:	3982 cm3
+Power:	665 HP @ 6000 RPM
+Torque:	800 Nm @ 2750-6000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	20.6 gallons (78.0 L)
+
+PERFORMANCE SPECS
+Top Speed:	202 mph (325 km/h)
+Acceleration 0-62 Mph (0-100 kph):	3.5 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed automatic
+
+
+
+2024 Aston Martin DB12
+
+ENGINE SPECS - 4.0L V8 8AT RWD (680 HP)
+Cylinders:	V8
+Power:680 HP @ 6000 RPM
+Torque:	800 Nm @ 2750-6000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	20.6 gallons (78.0 L)
+PERFORMANCE SPECS
+Top Speed:	202 mph (325 km/h)
+Acceleration 0-62 Mph (0-100 kph):	3.6 s
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed automatic
+
+
+ASTON MARTIN DBS Superleggera Volante
+
+ENGINE SPECS - 5.2L V12 8AT (725 HP)
+Cylinders:	V12
+Displacement:	5204 cm3
+Power:	725 HP @ 6500 RPM
+Torque:	900 Nm @ 1800-5000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+
+PERFORMANCE SPECS
+Top Speed:	211 mph (340 km/h)
+Acceleration 0-62 Mph (0-100 kph):	3.6 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed automatic
+
+
+ASTON MARTIN DBX707 2022
+
+ENGINE SPECS - 4.0L V8 TWIN TURBO 9AT AWD (707 HP)
+Cylinders:	V8
+Displacement:	3982 cm3
+Power: 707 HP @ 4500 RPM
+Torque:	900 Nm @ 6000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	23 gallons (87.1 L)
+
+PERFORMANCE SPECS
+Top Speed:	193 mph (311 km/h)
+Acceleration 0-62 Mph (0-100 kph):	3.3 s
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	9-speed automatic
+
+
+ASTON MARTIN DB11 AMR 2018
+
+ENGINE SPECS - 5.2L V12 8AT (630 HP)
+Cylinders:	V12
+Displacement:	5204 cm3
+Power:	630 HP @ 6500 RPM
+Torque:	700 Nm @ 1500 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+
+PERFORMANCE SPECS
+Top Speed:	208 mph (335 km/h)
+Acceleration 0-62 Mph (0-100 kph):	3.7 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed automatic

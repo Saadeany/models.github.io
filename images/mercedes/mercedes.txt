@@ -1,0 +1,161 @@
+MERCEDES BENZ C-Class (A205) 2018
+
+ENGINE SPECS - C 180 9AT (156 HP)
+Cylinders:	L4
+Displacement:	1595 cm3
+Power:156 HP @ - RPM
+Torque:	250 Nm @ 1200-4000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	13.2 gallons (50.0 L)
+
+PERFORMANCE SPECS
+Top Speed:137 mph (220 km/h)
+Acceleration 0-62 Mph (0-100 kph):8.9s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	9-speed automatic (9G-TRONIC)
+
+
+
+MERCEDES BENZ A-Class L Sedan 2018
+
+ENGINE SPECS - 1.3L 7AT (135 HP)
+Cylinders:	L4
+Displacement:	1333 cm3
+Fuel System:	Direct Injection
+Fuel:	Gasoline
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	7-speed automatic
+
+
+
+2014 Mercedes-Benz CLS63 AMG
+
+
+ENGINE SPECS - 5.5L V8 7AT (557 HP)
+Cylinders:	V8
+Displacement:	5461 cm3
+Power:	557 HP @ 5500 RPM
+Torque:	720 Nm @ 1750-5250 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	17.4 gallons (65.9 L)
+
+PERFORMANCE SPECS
+Top Speed:155 mph (249 km/h)
+Acceleration 0-62 Mph (0-100 kph):4.2 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	7-speed automatic
+
+
+
+
+MERCEDES BENZ E-Class Cabrio (A238) 2020
+
+
+ENGINE SPECS - 220 D 4MATIC 9AT (194 HP)
+Cylinders:	L4
+Displacement:	1950 cm3
+Power:194 HP @ 3800 RPM
+Torque:400 Nm @ 1600-2800 RPM
+Fuel System:	Turbocharged Common Rail
+Fuel:	Diesel
+
+PERFORMANCE SPECS
+Top Speed:	145 mph (233 km/h)
+Acceleration 0-62 Mph (0-100 kph):	7.9 s
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	9-speed automatic (9G-TRONIC)
+
+_______________________________________________________
+
+
+
+2020 Mercedes-Benz GLE Coupe
+
+ENGINE SPECS - 350D 4MATIC 9AT (272 HP)
+Cylinders:	L6
+Displacement:	2987 cm3
+Power:272 HP @ 3400-4600 RPM
+Torque:	600 Nm @ 1200-3200 RPM
+Fuel System:	Turbocharged Common Rail
+Fuel:	Diesel
+
+PERFORMANCE SPECS
+Top Speed:	143 mph (230 km/h)
+Acceleration 0-62 Mph (0-100 kph):	6.9 s
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	9-speed automatic (9G-TRONIC)
+
+
+
+
+2025 Mercedes-Benz G-Class
+
+
+ENGINE SPECS - G 450D MHEV 9AT AWD (367 HP)
+Cylinders:	L6
+Displacement:	2989 cm3
+Power:	367 HP @ 4000 RPM
+Torque:	750 Nm @ 1350-2800 RPM
+Electrical motor power:	14.7 kw (20 hp)
+Electrical motor torque:	147.5 lb-ft (200 Nm)
+Fuel System:	Turbocharged Common Rail
+Fuel:	Mild Hybrid Diesel
+Fuel capacity:	26.4 gallons (99.9 L)
+
+PERFORMANCE SPECS
+Top Speed:	130 mph (209 km/h)
+Acceleration 0-62 Mph (0-100 kph):	5.8 s
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	9-speed automatic (9G-TRONIC)
+
+
+
+
+2024 Mercedes-Benz GLE
+
+ENGINE SPECS - 300 D 4MATIC (269 HP)
+Cylinders:	L4
+Displacement:	1993 cm3
+Power:	269 HP @ 4200 RPM
+Torque:550 Nm @ 1800-2200 RPM
+Electrical motor power:	14.7 kw (20 hp)
+Electrical motor torque:	147.5 lb-ft (200 Nm)
+Fuel System:	Turbocharged Common Rail
+Fuel:	Mild Hybrid Diesel
+
+PERFORMANCE SPECS
+Top Speed:	143 mph (230 km/h)
+Acceleration 0-62 Mph (0-100 kph):	6.9 s
+
+
+
+
+2024 Mercedes-Benz GLS
+
+
+ENGINE SPECS - 450 4MATIC AWD (381 HP)
+Cylinders:	L6
+Displacement:	2999 cm3
+Power:	381 HP @ 5800-6100 RPM
+Torque:	500 Nm @ 1800-5000 RPM
+Electrical motor power:	14.7 kw (20 hp)
+Electrical motor torque:	109.2 lb-ft (148 Nm)
+Fuel:	Gasoline
+
+PERFORMANCE SPECS
+Top Speed:	130 mph (209 km/h)
+Acceleration 0-62 Mph (0-100 kph):	6 s

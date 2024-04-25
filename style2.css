@@ -1,0 +1,161 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+}
+
+
+.JJbody{
+  display: grid;
+  grid-template-columns: auto;
+
+}
+
+.Jtable, th, td{
+    border-style: 2px solid rgb(83, 216, 83) ;
+    border-radius: 5px;
+    margin-left: 28px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.JP{
+  color: #04AA6D;
+  margin: 3px;
+  padding-bottom: 5px;
+}
+
+.Jdata{
+  padding-top: 15px;
+  word-spacing: 2px;
+  line-height: 1.5;
+  opacity: 70%;
+  color: #7a6a6a;
+}
+.JCname{
+  letter-spacing: 2px;
+}
+.Jprice{
+  padding-top: 32px;
+
+}
+ .Jh1J{
+  text-align: left;
+  text-decoration: double;
+  padding: 16px;
+  margin: 32px;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.Jtable{
+  border: solid #ffffff;
+  float: left;
+  width: 800px;
+  height: 500px;
+  
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+th, td {
+    border: .5px solid #04AA6D;
+  
+  } 
+.Jprice{
+    text-align: center;  
+} 
+.Jimg{
+  padding-top: 30px;
+  padding-left: 28px;
+  margin: 10px;
+  width: auto;
+  height: 400px;
+}
+
+.Jvideo{
+  width: auto; height: 290px;
+  position: absolute;
+  top: 460px;
+  right: 100px;
+}
+
+.Jgallery{
+  display: grid;
+  grid-column: auto;
+
+}
+.JPvideo{
+ position: absolute;
+ right: 32%;
+}
+.JPaudio{
+ position: absolute;
+ right: 32%;
+ top: 115%;
+}
+
+.Jaudio{
+  position: absolute;
+  top: 120%;
+  left:  59%;
+  
+}
+
+.Jform{
+  /* border: solid; */
+  padding: 2px;
+  float: right;
+}
+
+
+.Jform .Jp{
+  text-align: left;
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+ 
+}
+.Jinput{
+  border: solid black;
+  border-width: 1px;
+}
+.Jbtn{
+    
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.Jbtn:hover, .Jbtn:active {
+  background-color: green;
+  color: white;
+}
+
+.Jprice{
+  text-align: center;
+}
+.JNprice{
+  font-weight: bolder;
+  font-size: xx-large;
+  color: green;
+  
+}
+.Jifram{
+  height: 500px;
+  width: 700px;
+  margin-left: 200px;
+  
+
+}
