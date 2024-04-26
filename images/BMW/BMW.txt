@@ -1,0 +1,161 @@
+M2 CS 2019
+
+ENGINE SPECS - 3.0L 6MT (450 HP)
+___________________
+Cylinders:	L6
+Displacement:	2979 cm3
+Power:	450 HP @ 6250 RPM
+Torque: 550 Nm @ 2350-5500 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	13.7 gallons (51.9 L)
+___________________
+PERFORMANCE SPECS
+Top Speed:	174 mph (280 km/h)
+Acceleration 0-62 Mph (0-100 kph):	4.2 s
+
+
+2025 BMW 4 Series Coupe
+
+ENGINE SPECS - 420I 8AT RWD (184 HP)
+Cylinders:	L4
+Displacement:	1998 cm3
+Power:	184 HP @ 5000-6500 RPM
+Torque:300 Nm @ 1350-4000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	15.6 gallons (59.1 L)
+
+PERFORMANCE SPECS
+Top Speed:149 mph (240 km/h)
+Acceleration 0-62 Mph (0-100 kph):7.5 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed Automatic Steptronic
+
+
+
+BMW M5 CS (F90)
+
+ENGINE SPECS - 4.4L V8 8AT (635 HP)
+Cylinders:	V8
+Displacement:	4395 cm3
+Power:	635 HP @ 6000 RPM
+Torque: 750 Nm @ 1800-5950 RPM
+Fuel:	Gasoline
+Fuel capacity:	18 gallons (68.1 L)
+
+PERFORMANCE SPECS
+Top Speed:190 mph (306 km/h)
+Acceleration 0-62 Mph (0-100 kph):3 s
+
+TRANSMISSION SPECS
+Drive Type:	All-Wheel Drive
+Gearbox:	8-speed automatic M Steptronic with Drivelogic
+
+
+BMW 8 Series Coupe (G15) 2018-2022
+
+
+ENGINE SPECS - 840I 8AT AWD (340 HP)
+Cylinders:	L6
+Displacement:	2993 cm3
+Power:	340 HP @ 5000-6000 RPM
+335 BHP @ 5000-6000 RPM
+Torque:500 Nm @ 1600-4500 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	18 gallons (68.1 L)
+
+PERFORMANCE SPECS
+Top Speed:155 mph (249 km/h)
+Acceleration 0-62 Mph (0-100 kph):5s
+
+TRANSMISSION SPECS
+Drive Type:	All-Wheel Drive
+Gearbox:	8-speed Automatic Steptronic
+
+
+2025 BMW Z4
+
+ENGINE SPECS - M40I 8AT RWD (340 HP)
+Cylinders:	L6
+Displacement:	2998 cm3
+Power:	340 HP @ 5000-6500 RPM
+Torque:	500 Nm @ 1600-4500 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	13.7 gallons (51.9 L)
+
+PERFORMANCE SPECS
+Top Speed:155 mph (249 km/h)
+Acceleration 0-62 Mph (0-100 kph):4.5 s
+TRANSMISSION SPECS
+
+Drive Type:Rear Wheel Drive
+Gearbox:8-speed automatic Steptronic
+
+______________________________________________________
+
+BMW X3 2021
+
+ENGINE SPECS - M40D 48V 8AT AWD (340 HP)
+Cylinders:	L6
+Displacement:	2993 cm3
+Power:	340 HP @ 4400 RPM
+Torque:	700 Nm @ 1750-2250 RPM
+Electrical motor power:	8.1 kW (11 hp)
+Fuel System:	Turbocharged Common Rail
+Fuel:	Mild Hybrid Diesel
+Fuel capacity:	18 gallons (68.1 L)
+
+PERFORMANCE SPECS
+Top Speed:155 mph (249 km/h)
+Acceleration 0-62 Mph (0-100 kph):4.9 s
+
+TRANSMISSION SPECS
+Drive Type:	All-Wheel Drive
+Gearbox:	8-speed Automatic Steptronic
+
+
+BMW X4 2021
+
+
+ENGINE SPECS - M40D 48V 8AT AWD (340 HP)
+Cylinders:	L6
+Displacement:	2993 cm3
+Power:	340 HP @ 4400 RPM
+Torque: 700 Nm @ 1750-2250 RPM
+Electrical motor power:	8.1 kW (11 hp)
+Fuel System:	Turbocharged Common Rail
+Fuel:	Mild Hybrid Diesel
+Fuel capacity:	18 gallons (68.1 L)
+
+PERFORMANCE SPECS
+Top Speed:155 mph (249 km/h)
+Acceleration 0-62 Mph (0-100 kph):4.9 s
+
+TRANSMISSION SPECS
+Drive Type:	All-Wheel Drive
+Gearbox:	8-speed Automatic Steptronic
+
+
+BMW X1 2022
+
+ENGINE SPECS - M35I XDRIVE 7AT AWD (300 HP)
+Cylinders:	L4
+Displacement:	1998 cm3
+Power:	300 HP @ 5750-6500 RPM
+Torque:400 Nm @ 2000-4500 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	14.3 gallons (54.1 L)
+
+PERFORMANCE SPECS
+Top Speed:	155 mph (249 km/h)
+Acceleration 0-62 Mph (0-100 kph):	5.4 s
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	7-speed automatic DCT

@@ -1,0 +1,101 @@
+2023 Ferrari 296 GTS
+
+ENGINE SPECS - 3.0L V6 TURBO 8AT RWD (830 HP)
+Cylinders:	V6
+Displacement:	2992 cm3
+Power:	663 HP @ - RPM
+Electrical motor power:	122.8 kW (167 hp)
+Electrical motor torque:	545.8 lb-ft (740 Nm)
+Total maximum power:	610.5 kW (830 hp)
+Total maximum torque:	545.8 lb-ft (740 Nm)
+Fuel System:	BiTurbo Direct Injection
+Fuel:	Hybrid Gasoline
+Fuel capacity:	17.2 gallons (65.1 L)
+PERFORMANCE SPECS
+Top Speed:	205 mph (330 km/h)
+Acceleration 0-62 Mph (0-100 kph):	2.9 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed automatic
+
+
+FERRARI 488 Pista 2018
+
+
+ENGINE SPECS - 3.9L V8 7AT (720 HP)
+Cylinders:	V8
+Displacement:	3902 cm3
+Power:	720.1 HP @ 8000 RPM
+Torque:	568 lb-ft @ 3000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+
+PERFORMANCE SPECS
+Top Speed:	211 mph (340 km/h)
+Acceleration 0-62 Mph (0-100 kph):	2.85 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	7-speed automatic
+
+
+FERRARI SF90 Stradale 2019
+
+ENGINE SPECS - 4.0L V8 8AT AWD (1000 HP)
+Cylinders:	V8
+Displacement:	3990 cm3
+Power:	1000 HP @ 7500 RPM
+Torque:	800 Nm @ 6000-8000 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Hybrid
+Fuel capacity:	18 gallons (68.1 L)
+
+PERFORMANCE SPECS
+Top Speed:	211 mph (340 km/h)
+Acceleration 0-62 Mph (0-100 kph):	2.5 s
+
+TRANSMISSION SPECS
+Drive Type:	All Wheel Drive
+Gearbox:	8-speed automatic F1 dual-clutch transmission
+
+
+
+2020 Ferrari Roma
+
+
+ENGINE SPECS - 4.0L V8 8AT (620 HP)
+Cylinders:	V8
+Displacement:	3855 cm3
+Power:	620 HP @ 5750-7500 RPM
+Torque:	760 Nm @ 3000-5750 RPM
+Fuel System:	Turbocharged Direct Injection
+Fuel:	Gasoline
+Fuel capacity:	21.1 gallons (79.9 L)
+
+PERFORMANCE SPECS
+Top Speed:	199 mph (320 km/h)
+Acceleration 0-62 Mph (0-100 kph):	3.4 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	8-speed automatic
+
+
+Ferrari LaFerrari Aperta
+
+ENGINE SPECS - 6.3 V12 7AT (963 HP)
+Cylinders:	V12
+Displacement:	6262 cm3
+Power:	800 HP @ 9000 RPM
+Torque:	700 Nm @ 6750 RPM
+Fuel System:	Direct Injection
+Fuel:	Hybrid
+
+PERFORMANCE SPECS
+Top Speed:	218 mph (351 km/h)
+Acceleration 0-62 Mph (0-100 kph):	2.8 s
+
+TRANSMISSION SPECS
+Drive Type:	Rear Wheel Drive
+Gearbox:	7-speed automatic (DCT)
