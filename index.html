@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="css\css.css">
+<link rel="stylesheet" href="css/css.css">
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="Jtittle"></title>
+    <title id="Jtittle">ferrari</title>
+
+          <!-- start nav bar -->
+          <div class="ztopnav">
+            <a href="index.html" class="zimage1">
+                <img src="image/Logo.ico" width="70px" height="50px">
+            </a>
+            <a onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg></a>
+            <a href="contact-us.html">Contact us</a>
+            <a href="Reviews.html">Reviews</a>
+            <a href="brands.html">Brands</a>
+            <a href="log-in.html">Log in</a>
+        </div>
+        <div>
+            <ul class="zsidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg></a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="Price.html">Prices</a></li>
+                <li><a href="BS.html">Best sales</a></li>
+                <li><a href="comparison.html">Compare</a></li>
+                <li><a href="mc.html">Maintenance Centers</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+    
+        <!-- end nav bar-->
+        <p class="Jnameid">سيف الدين خالد ابراهيم السعدنى<br>ID:20230273</p>
+        <button class="Jshow" onclick="show()">name&id</button>
+
     <h1 id="Jh1">car models</h1>
 </head>
 <body class="Jbody">
     
     <div class="Jmodels">
-        <h2 class="Jh2">ferrari <i class="Ji"><img class="Jicon" src="images/ferrari/download.png" alt="ferrari icon"></i></h2>
+        <h2 class="Jh2">ferrari <i class="Ji"><img class="Jicon" src="image/ferrari.png" alt="ferrari icon"></i></h2>
 
         <div class="Jcars">
 
             <div class="Jcar">
-                <img class="Jimage" src="images/ferrari/FERRARI-SF90-Stradale-6586_47.jpg" alt="SF-90">
+                <img class="Jimage" src="image/ferrari/FERRARI-SF90-Stradale-6586_47.jpg" alt="SF-90">
                 <ul id="Ju">
                     <li id="Jli"><h3 class="Jh3">FERRARI SF90</h3></li>
                     <li id="Jli"><div class="Jprice">$850,000</div></li>
@@ -25,36 +53,36 @@
                 <a href="ferrari_sf90.html" class="btn">check out</a>
             </div>
             <div class="Jcar">
-                <img class="Jimage" src="images/ferrari/FERRARI-Roma-6690_6.jpg" alt="roma">
+                <img class="Jimage" src="image/ferrari/FERRARI-Roma-6690_6.jpg" alt="roma">
                 <ul id="Ju">
                     <li id="Jli"><h3 class="Jh3">FERRARI Roma</h3></li>
                     <li id="Jli"><div class="Jprice">$247,000</div></li>
                 </ul>
-                <a href="#" class="btn">check out</a>
+                <a href="ferrari_roma.html" class="btn">check out</a>
             </div>
             <div class="Jcar">
-                <img class="Jimage" src="images/ferrari/FERRARI-LaFerrari-Aperta-5802_1.jpg" alt="LaFerrari">
+                <img class="Jimage" src="image/ferrari/FERRARI-LaFerrari-Aperta-5802_1.jpg" alt="LaFerrari">
                 <ul id="Ju">
                     <li id="Jli"><h3 class="Jh3">FERRARI LaFerrari</h3></li>
                     <li id="Jli"><div class="Jprice">$1,000,000</div></li>
                 </ul>
-                <a href="#" class="btn">check out</a>
+                <a href="ferrari laferrari.html" class="btn">check out</a>
             </div>
             <div class="Jcar">
-                <img class="Jimage" src="images/ferrari/ferrari-296-gts-2022-7252_8.jpg" alt="ferrari-296-gts">
+                <img class="Jimage" src="image/ferrari/ferrari-296-gts-2022-7252_8.jpg" alt="ferrari-296-gts">
                 <ul id="Ju">
                     <li id="Jli"><h3 class="Jh3">ferrari 296 gts</h3></li>
                     <li id="Jli"><div class="Jprice">$390,000</div></li>
                 </ul>
-                <a href="#" class="btn">check out</a>
+                <a href="ferrari_296gts.html" class="btn">check out</a>
             </div>
             <div class="Jcar">
-                <img class="Jimage" src="images/ferrari/FERRARI-488-Pista-6247_6.jpg" alt="FERRARI-488-Pista">
+                <img class="Jimage" src="image/ferrari/FERRARI-488-Pista-6247_6.jpg" alt="FERRARI-488-Pista">
                 <ul id="Ju">
                     <li id="Jli"> <h3 class="Jh3">FERRARI 488 Pista</h3></li>
                     <li id="Jli"><div class="Jprice">$422,000</div></li>
                 </ul>
-                <a href="ferrari_296gts.html" class="btn">check out</a>
+                <a href="ferrari_488psita.html" class="btn">check out</a>
             </div>
 
         </div>
@@ -63,7 +91,7 @@
     <!-- start footer -->
 <div>
     <footer class="yf">
-        <a href=""><img src="images/yicon.png" alt="logo for website " class="yicon"></a>
+        <a href=""><img src="image/yicon.png" alt="logo for website " class="yicon"></a>
         <div class="yy">
         <ul class="yl">
            <a href=""><li>Log in</li></a>
@@ -95,5 +123,9 @@
     
 </div>
         <!-- end footer -->
+
+
+
+        <script src="js/js.js"></script>
 </body>
 </html>

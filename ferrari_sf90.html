@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferrari SF90 Stradale</title>
     <link rel="stylesheet" href="css/css.css">
+
+         <!-- start nav bar -->
+         
+        <div class="ztopnav">
+            <a href="index.html" class="zimage1">
+                <img src="image/Logo.ico" width="70px" height="50px">
+            </a>
+            <a onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg></a>
+            <a href="contact-us.html">Contact us</a>
+            <a href="Reviews.html">Reviews</a>
+            <a href="brands.html">Brands</a>
+            <a href="log-in.html">Log in</a>
+        </div>
+        <div>
+            <ul class="zsidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z"/></svg></a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="Price.html">Prices</a></li>
+                <li><a href="BS.html">Best sales</a></li>
+                <li><a href="comparison.html">Compare</a></li>
+                <li><a href="mc.html">Maintenance Centers</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+    
+    
+            <!-- end nav bar-->
+            <p class="Jnameid">سيف الدين خالد ابراهيم السعدنى<br>ID:20230273</p>
+            <button class="Jshow" onclick="show()">name&id</button>
+
 </head>
 <body class="JJbody">
     <figure>
         <div class="J">
-            <img class="Jimg" src="images/ferrari/FERRARI-SF90-Stradale-6586_7.jpg" alt="SF90">
+            <img class="Jimg" src="image/ferrari/FERRARI-SF90-Stradale-6586_7.jpg" alt="SF90">
             <div class="Jh1J">
                 <p class="JP">COUPÉ</p>
                 <h1 class="JCname">FERRARI SF90 STRADALE</h1>
@@ -18,12 +48,13 @@
                 <p class="Jprice">Price <span class="JNprice">$850,000</span></p>
             </div>
         </div>
-        <div class="Jgallery">
-            <h2 class="JPvideo">Car Review</h2>
-            <video class="Jvideo" controls>
-                <source src="media/video/2023 FERRARI SF90 .mp4" type="video/mp4">
-            </video>
-            <h2 class="JPaudio">Car Sound</h2>  
+        <div class="Jgallery"> 
+               <p class="JPgallery">Car Review</p>
+               <video class="Jvideo" controls>
+                   <source src="media/video/2023 FERRARI SF90 .mp4" type="video/mp4">
+               </video>
+               <br>
+            <p class="JPgallery">Car Sound</p>  
             <audio class="Jaudio" controls>
                 <source src="media/audio/Ferrari SF90 sound, 4K.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -66,7 +97,6 @@
         </table> 
     </div>
     
-
 
     <div class="Jcontainer">
 
@@ -111,7 +141,7 @@
     <!-- start footer -->
 <div>
     <footer class="yf">
-        <a href="index.html"><img src="images/yicon.png" alt="logo for website " class="yicon"></a>
+        <a href="index.html"><img src="image/yicon.png" alt="logo for website " class="yicon"></a>
         <div class="yy">
         <ul class="yl">
            <a href="log-in.html"><li>Log in</li></a>
