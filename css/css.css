@@ -1,362 +1,587 @@
 :root{
-    --BG: #FEFAE0;
-    --borde: #faedcd;
-    --outline: #ccd5ae;
-    --btnC: #d4a373;
+  --BG: #FEFAE0;
+  --borde: #faedcd;
+  --outline: #ccd5ae;
+  --btnC: #d4a373;
+  --tabel: #04aa6d;
 }
-
-    /* start css for each brand */
-
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    outline: none; border: none;
+.ztopnav {
+    margin-right: 70px;
+    overflow: hidden;
+    background-color: #333;
+}
+.ztopnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
     text-decoration: none;
-    transition: all .2s linear;
-    text-transform: capitalize;
-   
 }
-@media (max-width: 768px){
-    .Jmodels{
-        grid-template-columns: auto;
-    }
+.ztopnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
-#Jh1{
-    text-align: center;
-    padding: 5px;
-    margin-top: 3px;
+.zimage1 {
+    margin-left: 70px;
+    float: left;
+    display: block;
+    color: white;
+    padding: 5px 25px;
+    background-color: #333;
 }
-.Jicon{
-    height: 48px;
-    margin-top: 2px;
-    margin-left: 5px;
-
-}
-.Jbody {
-    background-color: var(--BG)
-   }
-   
-.Jmodels{
-    max-width: 1200px;
-    margin:0 auto;
-    padding: 48px 32px ;
-}
-.Jh2{
-    font-size: 56px;
-    color: #444;
-    margin-bottom: 48px;
-    text-transform: uppercase;
-    text-align: left;
-}
-.Jh3{
-    text-transform: uppercase;
-}
-.Jmodels .Jcars{
-    display: grid;
-    /* display: flex;
-    flex-direction: row; */
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 5px;
-   
-    
-}
- /* animated outline */
-.Jmodels .Jcars .Jcar:hover{
-    outline: .16px solid #ccc;
-    outline-offset: 0;
-}
-/* boxes style */
-.Jmodels .Jcars .Jcar{
-    text-align: center;
-    padding: 48px 16px;
-    background: var(--borde);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    outline: .16px solid var(--outline);
-    outline-width: 16px;
-    outline-offset: -24px;
-    cursor: pointer;
-    
-}
-#Ju{
+.zsidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    background-color: #33333333;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
     list-style: none;
 }
-
-.Jimage{
-    padding: 10px;
-
+.zsidebar li {
+    width: 100%;
+    align-items: left;
 }
-
-.Jmodels .Jcars .Jcar .Jimage{
-    height: 400px;
-    width: 300px;
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-}
-.Jmodels .Jcars .Jcar:hover .Jimage{
-    transform: scale(.9);
-}
- /* button layout */
-.btn{
-        background-color: white;
-        color: black;
-        border: 2px solid var(--btnC);
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-      }
-      
-      a:hover, a:active {
-        background-color: var(--outline);
-        color: white;
-      }
-
-      /* end css for each brand */
-
-
-    /* start css for each model page */
-
-  
-  /* Base styles */
-  .JJbody {
-    display: grid;
-    grid-template-columns: auto;
-  }
-  
-  .J{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column width as needed */
-    gap: 500px; /* Add gap between grid items */
-  }
-  
-  .Jtable,
-  th,
-  td {
-    border: 2px solid rgb(83, 216, 83);
-    border-radius: 5px;
-    margin-left: 28px;
-    padding: 1rem;
-    margin: 1rem;
-  }
-  
-  .JP {
-    color: #04aa6d;
-    margin: 3px;
-    padding-bottom: 5px;
-  }
-  
-  .Jdata {
-    padding-top: 15px;
-    word-spacing: 2px;
-    line-height: 1.5;
-    opacity: 70%;
-    color: #7a6a6a;
-  }
-  
-  .JCname {
-    letter-spacing: 2px;
-  }
-  
-  .Jprice {
-    padding-top: 32px;
-  }
-  
-  .Jh1J {
-    text-align: left;
-    text-decoration: double;
-    padding: 16px;
-    margin: 32px;
-    position: absolute;
-    left: 50%;
-    /* display: flex;
-    display: inline-block; */
-    font-size: 20px;
-  }
-  
-  .Jtable {
-    border: solid #ffffff;
+.zsidebar a {
     float: left;
-    width: 800px;
-    height: 500px;
-  }
-  
-  th {
-    background-color: #04aa6d;
+    display: block;
     color: white;
-  }
-  
-  th,
-  td {
-    border: 0.5px solid #04aa6d;
-  }
-  
-  .Jprice {
-    text-align: center;
-  }
-  
-  .JNprice {
-    font-weight: bolder;
-    font-size: xx-large;
-    color: green;
-  }
-  
-  .Jimg {
-    padding-top: 30px;
-    padding-left: 28px;
-    margin: 10px;
-    width: auto;
-    height: 400px;
-  }
-  
-  .Jvideo {
-    width: auto;
-    height: 290px;
-    position: absolute;
-    top: 460px;
-    right: 100px;
-  }
-  
-  .Jgallery {
-    display: grid;
-    grid-column: auto;
-    gap: 20px;
-  }
-  
-  .JPvideo {
-    position: absolute;
-    right: 32%;
-  }
-  
-  .JPaudio {
-    position: absolute;
-    right: 32%;
-    top: 115%;
-  }
-  
-  .Jaudio {
-    position: absolute;
-    top: 120%;
-    left: 59%;
-  }
-  
-  .Jform {
-    padding: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: right;
-    border: 2px  solid  #04aa6d;
-  }
-  
-  .Jform .Jp {
     text-align: left;
-    font-style: italic;
-    font-size: large;
-    font-weight: bold;
-  }
-  
-  .Jinput {
-    border: 1px solid black;
-  }
-  
-  .Jbtn {
-    background-color: white;
-    color: black;
-    border: 2px solid green;
-    padding: 10px 20px;
-    text-align: center;
+    padding: 20px 10px;
     text-decoration: none;
-    display: inline-block;
-  }
-  
-  .Jbtn:hover,
-  .Jbtn:active {
-    background-color: green;
-    color: white;
-  }
-  
-  .Jprice {
-    text-align: center;
-  }
-  
-  .Jcontainer{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column width as needed */
-    gap: 500px; /* Add gap between grid items */
-  }
-  #Jh3{
-    margin-left: -130px;
-  }
-  .Jlist{
-    padding: 2px;
-    /* margin-left: auto; */
-    font-size: 30px;
-    /* margin-top: -650px;
-    margin-right: 80px; */
-    color: #7a6a6a;
-  
-  }
-  
-  .Jifram {
-    height: 650px;
-    width: 700px;
-    margin-left: 17px;
-    margin-top: 1px;
-  }
-  
-  /* Responsive styles */
-  @media only screen and (max-width: 768px) {
-    .JJbody {
-      grid-template-columns: 768px; /* Adjust grid layout to a single column */
-    }
-  
-    .Jtable {
-      width: 100%; /* Make the table full width */
-    }
-  
-    .Jvideo {
-      position: static;
-      width: 100%; /* Make the video full width */
-      height: auto; /* Allow the height to adjust according to aspect ratio */
-    }
-  
-    .JPvideo,
-    .JPaudio {
-      position: static;
-      right: auto;
-      top: auto;
-    }
-  
-    .Jaudio {
-      position: static;
-      left: auto;
-      top: auto;
-    }
-  
-    .Jform {
-      float: none;
-      margin-top: 20px; /* Add space below the form */
-    }
-    .Jlist{
-      padding: 2px;
-      margin-left: 180px;
-      margin-top: -400px;
-    }
-  
-    .Jifram {
-      margin: 20px auto; /* Center iframe and adjust margins */
-    }
-  }
-  
-
-  /* end css for each model page */
+}
+.zsidebar a:hover{
+    width: 100%;
+    background-color: #ddd;
+    color: black;
+}
 
 
+  /*سارة حاتم محمد احمد العطار
+20230244*/
+.h-me{
+  position: fixed;
+  top: 30px; /* Adjust as needed */
+  left: 50px; /* Adjust as needed */
+  color: white;
+  padding: 10px; 
+  rotate: 315deg;
+}
+/*comparison*/
+#h-h-body{ 
+  background-color: rgb(131, 131, 131);
+  background-image: linear-gradient(to bottom right, rgb(209, 209, 209),  rgb(61, 72, 110));
+  background-size: cover;
+  background-attachment:fixed ;
+  background-position: center;
+}
 
-   /* start footer */
-      
+#h-h-body table{
+  font-family: sans-serif;
+  ;
+}
+#h-h-body th,td{
+  border:5px solid;
+  border-color: rgb(61, 72, 110);
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.281)
+}
+.h-ras{
+  color: rgb(61, 72, 110);
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.226);
+}
+#h-h-body input{
+  background-color: rgb(61, 72, 110);
+  color: rgb(255, 255, 255);
+}
+#h-h-body td{text-align: center;}
+
+#h-cars{
+  float:left;
+  width: 30%;
+  height: 1000px;
+}
+
+#h-crc{
+  width: 60%;
+  height: 1000px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding-top: 300px;
+  padding-left: 30px;
+  padding-bottom: 300px;
+}
+.h-cat{
+  color:rgb(61, 72, 110);
+  width: 20%;
+  background-color: rgba(240, 248, 255, 0.226);
+}
+.h-dog{
+  width: 40%;
+}
+#h-vid{
+  margin-top: 20px;
+}
+#h-vid video{
+  border-radius: 30px;
+  float: left;
+  margin-bottom: 150px;
+}
+#h-h2{
+  margin-top: 100px;
+  margin-right: 200px;
+  background-color: rgba(0, 0, 0, 0.349);
+  border: solid 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 30px;
+  float: right;
+  color: aliceblue;
+}
+#h-h-body iframe{
+  height: 400px; 
+  width: 80%;
+  border: solid 10px;
+  border-color:rgb(61, 72, 110) ;
+  border-radius: 30px;
+}
+#h-arrow a{
+  margin: 0px;
+  margin-left: 100px;
+  background-image: linear-gradient(to bottom right,  rgb(61, 72, 110),  rgb(61, 72, 110), rgb(81, 105, 148),  rgb(61, 72, 110),  rgb(61, 72, 110)) ;    width: fit-content;
+  border: solid 5px;
+  border-color: rgba(240, 248, 255, 0);
+  border-radius: 10px;
+  color: rgb(240, 248, 255);
+}
+#h-arrow{
+  margin-left: 400px;
+}
+/*-------------------------------------------------------------------*/
+/*about us*/
+#h-body{
+  background-image: url('image/h-back.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#h-search input{
+  border-radius:10px ;
+}
+#h-no-1{
+  background-color: rgba(0, 0, 0, 0.445);
+  /*margin-top:200px ;*/
+  height: 700px;
+  width: 87%;
+  border-radius: 50px;
+  /*margin-left: 55px;*/
+  
+}
+#h-no-1 img{
+  height:150px;
+  border-radius:10px;
+  margin: 20px;
+  border: solid;
+  border-color:rgb(61, 82, 110) ;
+  width: 180px;
+}
+.h-h1{
+  color: rgb(255, 255, 255);
+}
+.h-info{
+  display: flex;
+  justify-self:left;
+}
+#h-no-1 h2{
+  background-color: rgb(61, 82, 110);
+  margin-bottom: 0px;
+  border-radius:20px ;
+  color: aliceblue;
+  
+}
+
+#h-no-1 p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.h-work{
+  background-color:rgba(0, 0, 0, 0.527) ;
+  color: aliceblue;
+  width: 180px;
+  height: 127px;
+  
+}
+#h-no-1 ol{
+  margin: 0px;
+}
+a{
+  color: aliceblue;
+}
+#h-sara{
+  height: 108px;
+}
+#h-aa{
+  display: flex;
+  justify-self:center;
+}
+#h-no-2{
+  height: 430px;
+  width: 87%;
+  background-color:rgba(0, 0, 0, 0.445) ;
+  border-radius: 50px;
+  margin-left: 103px;
+}
+#h-no-2 ul{
+  color: rgb(61, 82, 110);
+  /*display: flex;
+  justify-self: start;*/
+  list-style-image: url('image/h.gif');
+  margin-left:15px ;
+  margin-left: 50px;
+
+}
+#h-no-2 h3{
+  color: aliceblue;
+  display: flex;
+  justify-self: start;
+  margin-left: 10px;
+  background-color: rgb(61, 82, 110);
+  width: 18%;
+  border-radius: 20px;
+  border: solid 6px;
+  border-color: rgb(61, 82, 110);
+}
+#h-no-2 a:link {
+  text-decoration: none;
+}
+#h-no-2 a:active{
+  text-decoration: underline;
+}
+#h-no-2 a:hover{
+  text-decoration: underline;
+}
+/*
+#h-no-3{
+  color: white;
+  margin-top: 5px;
+  background-color:rgba(0, 0, 0, 0.445) ;
+  width: 87%;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: solid 5px;
+  border-color: rgba(0, 0, 0, 0);
+}
+#h-no-3 audio{
+  width: 87%;
+}
+#h-no-3 audio::-webkit-media-controls-panel{
+  
+  background-color: rgb(61, 82, 110);
+}
+#h-no-3 audio::-webkit-media-controls{
+  color: white;
+}
+*/
+#h-no-4{
+  width: 87%;
+  background-color:rgba(0, 0, 0, 0.445) ;
+  border-radius: 50px;
+  margin-left: 103px;
+  height: 300px;
+  color: aliceblue;
+  margin-bottom: 15px;
+}
+.heart-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 10px;
+  background: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 122, 155),rgb(255, 122, 155),rgb(255, 122, 155));
+  outline: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.heart-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transform: rotate(-45deg);
+}
+#h-no-4 form{
+  margin-left: 50px;
+} 
+#h-no-4 .material-icons{
+  color:  rgb(255, 122, 155);
+}
+#h-comment{
+  margin-top: 10px;
+  width: 30%;
+  height: 80px;
+  border: solid 3px;
+  border-color:rgb(61, 82, 110) ;
+  border-radius: 20px;
+}
+#h-comment::placeholder{
+  color:rgb(61, 82, 110) ;
+  padding-top: 0px;
+}
+#h-sub{
+  margin-left: 580px;
+  height: 40px;
+  width: 80px;
+  background: linear-gradient(to bottom right,  rgb(61, 72, 110),  rgb(61, 72, 110), rgb(81, 105, 148),  rgb(61, 72, 110),  rgb(61, 72, 110)) ;
+  color: aliceblue;
+  border-radius: 15px;
+}
+  /*---------------------------------------------------------------------------------------------------------------------*/
+  
+
+
+  /* start css for each brand */
+
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+ 
+}
+@media (max-width: 768px){
+  .Jmodels{
+      grid-template-columns: auto;
+  }
+  }
+  /*////////////////////////////// start of maintance center////////////////////////*/
+  .y{
+  background-image: url(image/yground4.jpg);
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+   background-size: cover; 
+} 
+
+.yn{
+   position: fixed; 
+  bottom: 0;
+  right: 0;
+  font-size: 15px;
+  color:blueviolet;
+}
+.yi{
+  width: 30%;
+  height: 30%;
+}  
+.yg:hover{
+  transform: scale(0.9,0.9);
+}
+.ymcx{
+  border-style: groove;
+  border-color: rgb(97, 5, 97);
+  border-width: 2px;
+}
+
+.yt {
+  width: 45%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.yt th, .yt td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.yt th {
+  background-color: #333;
+  color: #fff;
+}
+
+.yt tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.ys{
+  font-size: 25px;
+  font-family: Verdana;
+  color: rgb(90, 85, 85);
+}
+.yb{
+  background-color: darkmagenta;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  display: flex; 
+   width: 200px;
+}  
+.ym{
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+   display: inline-block; 
+    color:rgb(56, 54, 54); 
+} 
+
+.yb:hover {
+  background-color: rgb(66, 7, 66); 
+}
+
+.ya{
+  display: inline-block;
+  font-size: 35px;
+  font-family: Verdana;
+  margin-top: 25px;
+}
+.ymap{
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(133, 38, 133);
+}
+.ybrands{
+  border-style:outset;
+  border-width: 3px;
+  border-color: blueviolet;
+  margin: 20px;
+}
+.ybrand{
+  display: flex;
+  display: inline-block;
+   width: 250px;
+  overflow: hidden;
+  padding: 15px;
+  padding-left: 150px;
+  size: 250px;
+
+}
+.ybrand a{
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+}
+.ybrand a:hover{
+  color: rgb(59, 17, 99)
+}
+.ysmc{
+  text-align: center;
+  font-size: 23px;
+  color: darkmagenta;
+}
+.yss{
+  font-size: 23px;
+  margin-left: 80px;
+  margin-top: 40px;
+  color: rgb(72, 9, 131);
+}
+.ymc{
+  border-style: groove;
+  border-color: black;
+  border-width: 2px;
+}
+.ymc:hover{
+   transform: scale(0.9,0.9);
+   color: darkmagenta;
+}
+.ymc a:hover{
+  color: darkmagenta;
+}
+.ymc a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.yul{
+  list-style: none;
+  font-size: 19px;
+  font-family: arial;
+  display: flex;
+
+}
+.yul a{
+  text-decoration: none; 
+  color: black;
+  padding: 20px;
+  display: inline-block;
+  border-style: groove;
+  border-color: darkgray;
+  margin: 6px ;
+  border-radius: 50%;
+}
+.yul a:hover{
+  color: darkmagenta;
+  transform: scale(0.9,0.9);
+}
+.yce{
+  text-align: center;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.ybutton{
+  border: 0px;
+  background-color: white;
+  padding: 10px 60px;
+  cursor: pointer;
+  border-radius: 60px;
+}
+.ycard{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 15px;
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  text-align: center;
+   height: 90px; 
+  transform: translate(-50%,-50%);
+  transform: all .5s;
+}
+.ycard.open{
+  opacity: 1;
+  top: 50%;
+}
+.yfr{
+  width: 400px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 25px;
+}
+.yfl{
+  font-size: 25px;
+  font-family: Georgia;
+  color: darkmagenta;
+}
+.ytv{
+  display: flex;
+  flex-wrap: wrap;
+}
+.yv{
+  display: inline-block;
+  width: 350px;
+  height: 430px ;
+}
+
+/*////////////////////////footer////////////////////////////////*/
 .yf{
-  background-color: black; 
-  padding: 0;
+   background-color: black; 
+   padding: 0;
    margin: 0;
 }
 .yicon{
@@ -442,7 +667,703 @@
   font-size: 40px;
   height: 40px;
   width: 40px;
-} 
-   /* end footer */
+}
+/*//////////////////////////end of footer//////////////////////////////*/
 
+
+
+ /*/////////////////////////////start seif////////////*/ 
+/* style for each brand page */
+ 
+
+.Jbody{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+}
+@media (max-width: 768px){
+  .Jmodels{
+      grid-template-columns: auto;
+  }
+  }
+
+
+#Jh1{
+  text-align: center;
+  padding: 5px;
+  margin-top: 3px;
+}
+.Jicon{
+  height: 48px;
+  margin-top: 2px;
+  margin-left: 5px;
+
+}
+.Jbody {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+  background-color: var(--BG)
+ }
+ 
+.Jmodels{
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 48px 32px ;
+}
+.Jh2{
+  font-size: 56px;
+  color: #444;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.Jh3{
+  text-transform: uppercase;
+}
+.Jmodels .Jcars{
+  display: grid;
+  /* display: flex;
+  flex-direction: row; */
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 5px;
+ 
   
+}
+/* animated outline */
+.Jmodels .Jcars .Jcar:hover{
+  outline: .16px solid #ccc;
+  outline-offset: 0;
+}
+/* boxes style */
+.Jmodels .Jcars .Jcar{
+  text-align: center;
+  padding: 48px 16px;
+  background: var(--borde);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  outline: .16px solid var(--outline);
+  outline-width: 16px;
+  outline-offset: -24px;
+  cursor: pointer;
+  
+}
+#Ju{
+  list-style: none;
+}
+
+.Jimage{
+  padding: 10px;
+
+}
+
+.Jmodels .Jcars .Jcar .Jimage{
+  height: 400px;
+  width: 300px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+.Jmodels .Jcars .Jcar:hover .Jimage{
+  transform: scale(.9);
+}
+/* button layout */
+.btn{
+      background-color: white;
+      color: black;
+      border: 2px solid var(--btnC);
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: var(--outline);
+      color: white;
+    }
+
+        /* style for each brand page */
+
+
+      /* start css for each model page */
+
+/* Base styles */
+
+.Jnameid{
+  display: none;
+}
+.Jshow{
+  border: solid var(--tabel);
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px 3px;
+  background-color: white;
+}
+.JJbody {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: var(--BG);
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+  text-transform: capitalize;
+}
+
+.J{
+  display: flex;
+  flex-direction: row;
+  gap: 500px;
+}
+
+.Jtable,
+th,
+td {
+  /* border: 2px solid rgb(83, 216, 83); */
+  border-radius: 5px;
+  margin-left: 28px;
+  padding: .5rem;
+  margin: .5rem;
+  margin-top: 90px;
+}
+/* .Jtr:hover{
+  background-color: #04aa6d;
+} */
+
+.JP {
+  color: var(--tabel);
+  margin: 3px;
+  padding-bottom: 5px;
+}
+
+.Jdata {
+  padding-top: 15px;
+  word-spacing: 2px;
+  line-height: 1.5;
+  opacity: 70%;
+  color: #7a6a6a;
+}
+
+.JCname {
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.Jprice {
+  padding-top: 32px;
+}
+
+.Jh1J {
+  text-align: left;
+  text-decoration: double;
+  padding: 16px;
+  margin: 32px;
+  position: absolute;
+  left: 50%;
+  /* display: flex;
+  display: inline-block; */
+  font-size: 20px;
+  background-color: var(--BG);
+  box-shadow:  0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Jtable {
+  /* border: solid #ffffff; */
+  float: left;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 500px;
+}
+
+th {
+  background-color: var(--tabel);
+  color: white;
+}
+
+th,
+td {
+  border: 0.5px solid var(--tabel);
+}
+
+.Jprice {
+  text-align: center;
+}
+
+.JNprice {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: var(--tabel);
+}
+
+.Jimg {
+  padding-top: 30px;
+  padding-left: 28px;
+  margin: 10px;
+  width: auto;
+  height: 400px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.Jimg:hover{
+  transform: scale(1.1);
+  /* box-shadow:  0 6px 8px rgba(0, 0, 0, 0.1); */
+  /* opacity: 0.8; */
+
+}
+
+.Jvideo {
+  /* width: auto; */
+  height: 290px;
+  /* position: absolute;
+  top: 460px;
+  right: 100px; */
+}
+
+.Jgallery {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+  margin: 5px;
+  width: 680px;
+  margin-right: 16px;
+}
+
+.JPgallery{
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+/* .JPvideo {
+  position: absolute;
+  right: 32%;
+}
+ */
+/* .JPaudio {
+  position: absolute;
+  right: 32%;
+  top: 115%;
+} */
+
+/* .Jaudio {
+  position: absolute;
+  top: 120%;
+  left: 59%;
+  color: var(--tabel);
+} */
+
+.Jform {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1)  ;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  float: right;
+  border: 2px  solid  var(--tabel);
+  width: 260px;
+}
+
+.Jform .Jp {
+  text-align: left;
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Jinput {
+  border: 1px solid black;
+  height: 20px;
+}
+
+.Jbtn {
+  background-color: white;
+  color: black;
+  border: 2px solid var(--tabel);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Jbtn:hover,
+.Jbtn:active {
+  background-color: var(--tabel);
+  color: white;
+}
+
+.Jprice {
+  text-align: center;
+}
+
+.Jcontainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column width as needed */
+  gap: 500px; /* Add gap between grid items */
+  margin-top: 100px;
+}
+#Jh3{
+  margin-left: -130px;
+}
+.Jlist{
+  padding: 2px;
+  /* margin-left: auto; */
+  font-size: 30px;
+  /* margin-top: -650px;
+  margin-right: 80px; */
+  color: #7a6a6a;
+
+}
+
+.Jifram {
+  height: 650px;
+  width: 700px;
+  margin-left: 17px;
+  margin-top: 1px;
+}
+
+
+
+/* Responsive styles */
+
+@media only screen and (max-width: 1400px) {
+  
+.Jimg{
+  max-width: 100%; /* Ensures image doesn't exceed container width */
+  height: auto; /* Maintains aspect ratio */
+  width: auto; /* Allows the image to shrink */
+  display: block; /* Ensures proper rendering */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.JJbody {
+  grid-template-columns: 1fr; 
+}
+
+.Jtable {
+    width: 100%; 
+    height: auto; 
+    position: static; 
+    top: auto; 
+}
+
+.Jgallery {
+  position: static; 
+  margin: 0; 
+}
+
+.Jvideo {
+  width: 100%; 
+  height: auto; 
+} 
+
+.JPvideo,
+.JPaudio {
+  position: static;
+  right: auto;
+  top: auto;
+}
+
+.Jaudio {
+  left: auto;
+  top: auto;
+}
+
+.Jform {
+  float: none;
+  margin-top: 20px; /* Add space below the form */
+}
+
+.Jlist {
+  padding: 2px;
+  margin-left: 0; 
+  margin-top: 20px; 
+  font-size: 24px; 
+  text-align: center; 
+}
+
+li{
+  list-style: none;
+}
+/* #Jh3{
+  text-align: center;
+} */
+
+.Jifram {
+  margin: 20px auto; 
+  width: 100%;
+}
+.Jcontainer{
+  gap: 20px;
+}
+
+
+}
+
+/* end css for each model page */
+
+
+/*/////////////////////////////end seif////////////*/ 
+ 
+.ztopnav {
+	overflow: hidden;
+	background-color: #333;
+}
+.ztopnav a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 50px;
+	text-decoration: none;
+}
+.ztopnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.zimage1 {
+	float: left;
+	display: block;
+	color: white;
+	padding: 5px 25px;
+	background-color: #333;
+}
+.zsidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 250px;
+	z-index: 999;
+	background-color: #33333333;
+	backdrop-filter: blur(10px);
+	box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	list-style: none;
+}
+.zsidebar li {
+	width: 100%;
+	align-items: left;
+}
+.zsidebar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: left;
+	padding: 20px 10px;
+	text-decoration: none;
+}
+.zsidebar a:hover{
+	width: 100%;
+	background-color: #ddd;
+	color: black;
+}
+
+.ztext {
+position: absolute;
+top: 230px;
+left: 18px;
+font-size: 39px;
+text-align: center;
+font-style: italic;
+color: white;
+text-shadow: 3px 3px 5px #000000;
+}
+.zferrari {
+width: 50px;
+height: auto;
+position: absolute;
+top: 380px;
+left: 5px;
+}
+.zlambo{
+width: 50px;
+height: auto;
+position: absolute;
+top: 380px;
+left: 70px;
+}
+.zporsche{
+width: 45px;
+height: auto;
+position: absolute;
+top: 380px;
+left: 140px;
+}
+.zaston{
+width: 160px;
+height: auto;
+position: absolute;
+top: 468px;
+left: 310px;
+}
+.zbmw{
+width: 55px;
+height: auto;
+position: absolute;
+top: 380px;
+left: 205px;
+}
+.zmercedes{
+width: 55px;
+height: auto;
+position: absolute;
+top: 380px;
+left: 280px;
+}
+.zaudi{
+width: 120px;
+height: auto;
+position: absolute;
+top: 385px;
+left: 357px;
+}
+.ztoyota{
+width: 55px;
+height: auto;
+position: absolute;
+top: 470px;
+left: 5px;
+}
+.znissan{
+width: 50px;
+height: auto;
+position: absolute;
+top: 467px;
+left: 75px;
+}
+.zhyundai{
+width: 65px;
+height: auto;
+position: absolute;
+top: 471px;
+left: 140px
+}
+.zchevrolet{
+width: 75px;
+height: auto;
+position: absolute;
+top: 473px;
+left: 220px;
+}
+.zbody {
+background-image: url('../image/Background.jpg');
+background-repeat: no-repeat;		
+background-size: cover;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+.profilebody{
+ background-color: #f3f3f3;
+}
+
+.wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 450px;
+display: flex;
+box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.wrapper .left{
+width: 35%;
+background: linear-gradient(to right,#01a9ac,#01dbdf);
+padding: 30px 25px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+text-align: center;
+color: #fff;
+}
+
+.wrapper .left img{
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.wrapper .left h4{
+margin-bottom: 10px;
+}
+
+.wrapper .left p{
+font-size: 12px;
+}
+
+.wrapper .right{
+width: 65%;
+background: #fff;
+padding: 30px 25px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects{
+margin-bottom: 25px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3{
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #353c4e;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .projects_data{
+display: flex;
+justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .projects_data .data{
+width: 45%;
+}
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .projects_data .data h4{
+  color: #353c4e;
+  margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p,
+.wrapper .right .projects_data .data p{
+font-size: 13px;
+margin-bottom: 10px;
+color: #919aa3;
+}
+
+.wrapper .social_media ul{
+display: flex;
+}
+
+.wrapper .social_media ul li{
+width: 45px;
+height: 45px;
+background: linear-gradient(to right,#01a9ac,#01dbdf);
+margin-right: 10px;
+border-radius: 5px;
+text-align: center;
+line-height: 45px;
+list-style: none;
+}
+
+.wrapper .social_media ul li a{
+color :#fff;
+display: block;
+font-size: 18px;
+}
